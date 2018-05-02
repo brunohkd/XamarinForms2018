@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TipoPaginaXF.TipoPagina.MasterDetail
+namespace TipoPaginaXF.TipoPagina.Master
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Conteudo : ContentPage
