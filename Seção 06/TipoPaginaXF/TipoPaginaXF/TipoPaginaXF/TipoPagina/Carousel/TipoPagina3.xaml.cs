@@ -17,9 +17,10 @@ namespace TipoPaginaXF.TipoPagina.Carrousel
 			InitializeComponent ();
 		}
 
-        public void MudarPagina(object sender, EventArgs args)
+        private void MudarPagina(object sender, EventArgs args)
         {
-            App.Current.MainPage = new NavigationPage(new Navigation.Pagina1()) { BarBackgroundColor = Color.LightSkyBlue };
+            //App.Current.MainPage = new NavigationPage(new Navigation.Pagina1()) { BarBackgroundColor = Color.LightSkyBlue };
+            App.Current.MainPage = new TipoPagina.Tabbed.Abas();
         }
     }
 

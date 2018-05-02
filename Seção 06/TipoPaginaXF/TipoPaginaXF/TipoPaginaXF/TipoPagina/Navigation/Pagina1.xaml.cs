@@ -17,9 +17,14 @@ namespace TipoPaginaXF.TipoPagina.Navigation
 			InitializeComponent ();
 		}
 
-        public void MudarParaPagina2(object sender, EventArgs args)
+        private void MudarParaPagina2(object sender, EventArgs args)
         {
             Navigation.PushAsync(new Pagina2());
+        }
+
+        private void ChamarModal(object sender, EventArgs args)
+        {
+            Navigation.PushModalAsync(new Modal());
         }
 
     }
