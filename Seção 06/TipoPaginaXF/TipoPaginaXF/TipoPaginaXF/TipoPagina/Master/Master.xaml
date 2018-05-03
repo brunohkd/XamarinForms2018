@@ -6,6 +6,13 @@
 
     <MasterDetailPage.Master>
         <!--Menu-->
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <Button Text="Pagina 1" BackgroundColor="Transparent" Clicked="MudarPagina1"/>
+                <Button Text="Pagina 2" BackgroundColor="Transparent" Clicked="MudarPagina2"/>
+                <Button Text="Pagina Conteúdo" BackgroundColor="Transparent" Clicked="MudarPaginaConteudo"/>
+            </StackLayout>
+        </ContentPage>
     </MasterDetailPage.Master>
 
     <MasterDetailPage.Detail>

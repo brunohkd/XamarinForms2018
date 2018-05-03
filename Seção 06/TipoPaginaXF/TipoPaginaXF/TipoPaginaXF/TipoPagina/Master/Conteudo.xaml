@@ -6,7 +6,7 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Eu sou o conteúdo."
+            <Label Text="Eu sou o conteúdo 001."
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
