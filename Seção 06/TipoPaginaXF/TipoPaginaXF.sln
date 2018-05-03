@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipoPaginaXF.iOS", "TipoPag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipoPaginaXF.UWP", "TipoPaginaXF\TipoPaginaXF.UWP\TipoPaginaXF.UWP.csproj", "{EC0EC7A2-60BE-49E5-8696-F4D5DDD2F2FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipoPaginaXF", "TipoPaginaXF\TipoPaginaXF\TipoPaginaXF.csproj", "{441AFA3D-0C84-4BC5-ACA3-9D2970BD3F3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipoPaginaXF", "TipoPaginaXF\TipoPaginaXF\TipoPaginaXF.csproj", "{441AFA3D-0C84-4BC5-ACA3-9D2970BD3F3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,7 +179,7 @@ Global
 		{EC0EC7A2-60BE-49E5-8696-F4D5DDD2F2FF}.AppStore|x86.ActiveCfg = Release|x86
 		{EC0EC7A2-60BE-49E5-8696-F4D5DDD2F2FF}.AppStore|x86.Build.0 = Release|x86
 		{EC0EC7A2-60BE-49E5-8696-F4D5DDD2F2FF}.AppStore|x86.Deploy.0 = Release|x86
-		{EC0EC7A2-60BE-49E5-8696-F4D5DDD2F2FF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{EC0EC7A2-60BE-49E5-8696-F4D5DDD2F2FF}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{EC0EC7A2-60BE-49E5-8696-F4D5DDD2F2FF}.Debug|ARM.ActiveCfg = Debug|ARM
 		{EC0EC7A2-60BE-49E5-8696-F4D5DDD2F2FF}.Debug|ARM.Build.0 = Debug|ARM
 		{EC0EC7A2-60BE-49E5-8696-F4D5DDD2F2FF}.Debug|ARM.Deploy.0 = Debug|ARM
