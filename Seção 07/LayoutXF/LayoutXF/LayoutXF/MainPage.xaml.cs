@@ -32,7 +32,13 @@ namespace LayoutXF
 
         private void GoPaginaRelative(object sender, EventArgs args)
         {
-            Navigation.PushAsync(new LayoutXF.Layouts.Relative.RelativePage());
+            try
+            {
+                Navigation.PushAsync(new LayoutXF.Layouts.Relative.RelativePage());
+            } catch (Exception e)
+            {
+                DisplayAlert("Error", e.Message, "OK");
+            }
         }
 
         private void GoPaginaScroll(object sender, EventArgs args)
