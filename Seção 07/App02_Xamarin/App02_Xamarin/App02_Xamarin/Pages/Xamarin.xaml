@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App02_Xamarin.Pages.Xamarin">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#0D1F2D">
+
+            <StackLayout BackgroundColor="#FFC926" Padding="30" VerticalOptions="StartAndExpand">
+                <Image Source="Xamarin.fw.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Padding="50">
+                <Label Text="Xamarin" FontSize="24" TextColor="White"/>
+            </StackLayout>
+
+            <Grid BackgroundColor="White" VerticalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Column="0" Grid.Row="0">
+                    <RelativeLayout>
+                        <BoxView BackgroundColor="#0D1F2D"
+                                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0.1, Constant=10}"
+                                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0.1, Constant=10}"/>
+                        <BoxView BackgroundColor="#25567E"
+                                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0.1, Constant=25}"
+                                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0.1, Constant=25}"/>
+                        <BoxView BackgroundColor="#4E93CB"
+                                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0.1, Constant=40}"
+                                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0.1, Constant=40}"/>
+                    </RelativeLayout>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Center">
+                    <Label Text="Exemplo" FontSize="28"/>
+                </StackLayout>
+
+                <StackLayout Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Padding="30">
+                    <Label Text="Comprada pela Microsoft em 2016. Desenvolve tecnologia multiplataforma que funcionam principalmente em Android, iOS e UWP." />
+                </StackLayout>
+
+            </Grid>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
